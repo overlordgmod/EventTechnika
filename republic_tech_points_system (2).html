@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Система Боевых Очков Республики</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #0f172a;
+        color: #e2e8f0;
+    }
+    header {
+        background: linear-gradient(90deg, #1e293b, #0f172a);
+        padding: 30px;
+        text-align: center;
+        border-bottom: 2px solid #334155;
+    }
+    h1 {
+        margin: 0;
+        font-size: 32px;
+    }
+    .container {
+        max-width: 1100px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+    h2 {
+        border-left: 5px solid #3b82f6;
+        padding-left: 10px;
+        margin-top: 40px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #1e293b;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+    }
+    th {
+        background-color: #334155;
+    }
+    tr:nth-child(even) {
+        background-color: #263244;
+    }
+    tr:hover {
+        background-color: #334155;
+    }
+    .footer {
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid #334155;
+        margin-top: 40px;
+        font-size: 14px;
+        color: #94a3b8;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Система Боевых Очков Республики</h1>
+    <p>Базовый бюджет ивента: 5000 Очков Ресурсов Республики</p>
+</header>
+
+<div class="container">
+
+    <h2>📈 Система изменения ресурсов между ивентами</h2>
+    <table>
+        <tr><th>Исход операции</th><th>Изменение ресурсов</th></tr>
+        <tr><td>Победа Республики</td><td>+1000 Очков Ресурсов Республики</td></tr>
+        <tr><td>Поражение Республики</td><td>-1000 Очков Ресурсов Республики</td></tr>
+    </table>
+
+    <p style="margin-top:15px; color:#94a3b8;">С момента введения системы стартовый бюджет каждой операции составляет 5000 Очков Ресурсов Республики. После завершения ивента итог корректируется в зависимости от результата (+1000 за победу, -1000 за поражение).</p>
+
+    <h2>🟢 Лёгкая наземная техника</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>AT-RT</td><td>400</td></tr>
+        <tr><td>BARC Speeder</td><td>350</td></tr>
+        <tr><td>AT-PT</td><td>600</td></tr>
+    </table>
+
+    <h2>🟡 Средняя наземная техника</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>IFT-X</td><td>900</td></tr>
+        
+        <tr><td>TX-427</td><td>1000</td></tr>
+        
+    </table>
+
+    <h2>🔴 Тяжёлая наземная техника</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>AT-PT 252</td><td>1200</td></tr>
+        <tr><td>Juggernaut</td><td>2000</td></tr>
+        <tr><td>AT-TE</td><td>2200</td></tr>
+    </table>
+
+    <h2>✈ Лёгкая авиация</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>V-19 Torrent</td><td>900</td></tr>
+        <tr><td>V-Wing</td><td>800</td></tr>
+        <tr><td>Clone Starfighter</td><td>950</td></tr>
+        <tr><td>T-42</td><td>950</td></tr>
+        <tr><td>Cutlass-9</td><td>1100</td></tr>
+    </table>
+
+    <h2>🟡 Ударная авиация</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>ARC-40b Fighter</td><td>1200</td></tr>
+        <tr><td>ARC-170 Fighter</td><td>1500</td></tr>
+        <tr><td>Aligator Fighter</td><td>1300</td></tr>
+        <tr><td>NU-Class Shuttle</td><td>1400</td></tr>
+    </table>
+
+    <h2>🔴 Тяжёлая авиация</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>Y-Wing</td><td>1700</td></tr>
+        <tr><td>T-51 Heavy Bomber</td><td>2000</td></tr>
+    </table>
+
+    <h2>🚁 LAAT серия</h2>
+    <table>
+        <tr><th>Техника</th><th>Стоимость (Очки Ресурсов Республики)</th></tr>
+        <tr><td>LAAT/i</td><td>1200</td></tr>
+        <tr><td>LAAT/g</td><td>1400</td></tr>
+        <tr><td>LAAT/c</td><td>1500</td></tr>
+    </table>
+
+</div>
+
+<div class="footer">
+    Республика. Стратегия. Ответственность за ресурсы.
+</div>
+
+</body>
+</html>
